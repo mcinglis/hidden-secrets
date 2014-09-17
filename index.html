@@ -15,14 +15,6 @@ title: "testx"
     <h1 class="site-title">{{ site.title }}</h1>
     <p class="site-description">{{ site.description }}</p>
     <div class="locations">
-      {% for loc in site.data.locations %}
-      <section class="location">
-        <h1 class="location-title">{{ loc.title }}</h1>
-        <div class="location-description">
-          {{ loc.description | markdownify }}
-        </div>
-      </section>
-      {% endfor %}
     </div>
   </body>
 </html>
